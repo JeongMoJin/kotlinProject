@@ -43,6 +43,7 @@ fun main() {
     var run = true // 반복문의 조건을 사용 -> 값이 false가 된다면 반복문이 종료
     var studentNum: Int = 0 // 학생수
     var scores: IntArray = IntArray(studentNum) // 점수를 입력 받을 빈 배열 생성. 사용자에게 입력받은 학생수를 기준으로 배열 생성
+    var scores2: IntArray? = null // 점수를 입력 받을 빈 배열 생성. 사용자에게 입력받은 학생수를 기준으로 배열 생성
     while (run) {
         println("----------------------------------------------------------")
         println("1.학생수 | 2.점수입력 | 3.점수리스트 | 4.분석 | 5.종료")

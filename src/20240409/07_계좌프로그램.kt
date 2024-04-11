@@ -16,7 +16,7 @@ fun main() {
 
         val selectNo: Int = readln().trim().toInt()
         when (selectNo) {
-//			1 -> createAccount()
+			1 -> idx = createAccount(idx, max, anos, owners, balances)
 //			2 -> viewAccountList()
 //			3 -> deposit()
 //			4 -> withdraw()
@@ -26,3 +26,48 @@ fun main() {
     }
     println("프로그램 종료")
 }
+
+//fun createAccount(idx: Int, max: Int, anos: Array<String>, owners: Array<String>, balance: IntArray): Int {
+//    /* 계좌생성 */
+//    if (idx == max) {
+//        println("생성 가능한 계좌의 범위를 초과했습니다.")
+//        return idx
+//    }
+//    println("--------------")
+//    println("계좌생성")
+//    println("--------------")
+//
+//    print("계좌번호: ")
+//    val ano:String = readln()
+//
+//    print("계좌주: ")
+//    val owner:String = readln()
+//
+//    print("초기입금액: ")
+////    val
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

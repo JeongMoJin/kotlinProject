@@ -1,6 +1,5 @@
 package `20240409`
 
-import ch_01.day240118.Account
 import java.util.*
 
 object KoreaItTest {

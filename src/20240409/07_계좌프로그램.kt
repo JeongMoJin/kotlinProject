@@ -16,7 +16,7 @@ fun main() {
 
         val selectNo: Int = readln().trim().toInt()
         when (selectNo) {
-			1 -> idx = createAccount(idx, max, anos, owners, balances)
+//			1 -> idx = createAccount(idx, max, anos, owners, balances)
 //			2 -> viewAccountList()
 //			3 -> deposit()
 //			4 -> withdraw()
